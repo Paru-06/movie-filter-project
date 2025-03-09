@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Filter Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Latest Tamil Movies 2025</h1>
+    </header>
+
+    <div class="filters">
+        <div class="filter-group">
+            <span>Genre:</span>
+            <button class="chip" data-genre="Action">Action</button>
+            <button class="chip" data-genre="Comedy">Comedy</button>
+            <button class="chip" data-genre="Drama">Drama</button>
+            <button class="chip" data-genre="Romance">Romance</button>
+            <button class="chip" data-genre="Thriller">Thriller</button>
+        </div>
+
+        <div class="filter-group">
+            <span>Rating:</span>
+            <button class="chip" data-rating="5">5★</button>
+            <button class="chip" data-rating="4">4★</button>
+            <button class="chip" data-rating="3">3★</button>
+            <button class="chip" data-rating="2">2★</button>
+        </div>
+
+        <div class="filter-group">
+            <span>Year:</span>
+            <button class="chip" data-year="2025">2025</button>
+        </div>
+    </div>
+
+    <div class="movie-container" id="movieContainer"></div>
+
+    <script src="movies.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
